@@ -7,11 +7,18 @@
 </head>
 <body>
     <script type="text/javascript">
-        let nota = 8; //declaramos la variable que guarda la nota 
-        if (nota > 6) {
-            console.log("Aprobado");
+        let nota = prompt("Digite la nota entre 1 y 10");
+         //declaramos la variable que guarda la nota 
+        if (nota >= 9) {
+            console.log("Excelente");
+        }else if (nota >= 8){
+            console.log("Muy bien");
+        }else if (nota >= 6){
+            console.log("bien");
+        }else if (nota >= 4) {
+            console.log("Por mejorar");
         }else{
-            console.log("No Aprobado");
+            console.log("Muy mal");
         }
         let edad = 25;
         if (edad >= 25) {
